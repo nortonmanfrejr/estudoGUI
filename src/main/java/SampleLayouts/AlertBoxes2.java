@@ -1,4 +1,4 @@
-package AlertBoxes;
+package SampleLayouts;
 
 import javafx.geometry.Pos;
 import javafx.scene.Scene;

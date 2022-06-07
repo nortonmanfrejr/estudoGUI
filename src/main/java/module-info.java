@@ -12,6 +12,21 @@ module com.example.demo {
 
     exports SwitchingScenes;
     opens SwitchingScenes to javafx.fxml;
+
+    exports  SampleLayouts;
+    opens SampleLayouts to javafx.fxml;
+
+    exports loginScene;
+    opens loginScene to javafx.fxml;
+
+    exports validateInput;
+    opens validateInput to javafx.fxml;
+
+    exports CheckBox;
+    opens CheckBox to javafx.fxml;
+
+    exports choiceBox;
+    opens choiceBox to javafx.fxml;
 }
 
 

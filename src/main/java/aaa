@@ -1,0 +1,25 @@
+    public static void main(String[] args){
+        launch(args);
+    }
+
+
+    Stage w;
+    Scene s;
+    Button b;
+    @Override
+    public void start(Stage stage) throws Exception {
+    w = stage;
+    w.setTitle(" ");
+
+    b = new Button("Click");
+
+
+    VBox l = new VBox(10);
+    l.setPadding(new Insets(20,20,20,20));
+    l.getChildren().addAll(b);
+
+
+    s = new Scene(l,300,200);
+    w.setScene(s);
+    w.show();
+    }
