@@ -34,6 +34,10 @@ public class choiceBox extends Application{
         choiceBox.setValue("Apples");
 
 
+
+
+        choiceBox.getSelectionModel().selectedItemProperty().addListener( (v, oldValue, newValue) -> System.out.println(newValue) ); // Send to terminal before click in a button b
+
         b.setOnAction(e -> getChoice(choiceBox));
 
     VBox l = new VBox(10);

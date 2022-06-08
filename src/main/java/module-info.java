@@ -27,6 +27,15 @@ module com.example.demo {
 
     exports choiceBox;
     opens choiceBox to javafx.fxml;
+
+    exports comboBox;
+    opens comboBox to javafx.fxml;
+
+    exports listViews;
+    opens listViews to javafx.fxml;
+
+    exports treeView;
+    opens treeView to javafx.fxml;
 }
 
 
