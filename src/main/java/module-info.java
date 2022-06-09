@@ -36,6 +36,12 @@ module com.example.demo {
 
     exports treeView;
     opens treeView to javafx.fxml;
+
+    exports tableView;
+    opens tableView to javafx.fxml;
+
+    exports menus;
+    opens menus to javafx.fxml;
 }
 
 
