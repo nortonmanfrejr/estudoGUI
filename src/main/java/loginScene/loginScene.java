@@ -60,6 +60,8 @@ public class loginScene extends Application {
 
         loginButton.setOnAction(e -> {
             System.out.printf("username: %s%npassword: %s%n", nameInput.getText(), passInput.getText());
+            setUserAgentStylesheet(STYLESHEET_CASPIAN);
+
         });
 
         grid.getChildren().addAll(nameLabel,nameInput,passLabel,passInput,loginButton);
